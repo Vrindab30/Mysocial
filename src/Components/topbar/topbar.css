@@ -1,101 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&family=Roboto:wght@100;300;400;500;700&family=Ubuntu&family=Varela+Round&display=swap');
-.topbarContainer{
-    height: 50px;
-    width: 100%;
-    background-color: #5072A7;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    padding: 0.3rem;
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
-.topbarLeft{
-    flex: 3;
+.topbarLeft {
+  flex: 3;
 }
 
-.logo{
-    font-size: 1.7rem;
-    margin-topbarLeft: 20px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-    margin-left: 2rem;
-    font-family: 'Quicksand', sans-serif;
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
 
-.topbarCenter{
-    flex: 5;
+.topbarCenter {
+  flex: 5;
 }
 
-.searchbar{
-    width: 100%;
-    height: 30%;
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
 }
 
-.searchIcon{
-    font-size: 20px !important; 
-    margin-left: 10px;
-    padding: 0.4rem;
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
 }
 
-.searchInput{
-    border: none;
-    width: 70%;
+.searchInput {
+  border: none;
+  width: 70%;
 }
 
-.searchInput{
-    outline: none;
+.searchInput:focus {
+  outline: none;
 }
 
-.topbarRight{
-    flex: 4;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
 }
 
-.tpobarLink{
-    margin-right: 10px;
-    font-size: 14px;
-    cursor: pointer;
+.topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.topbarIcons{
-    display: flex;
+.topbarIcons {
+  display: flex;
 }
 
-.topbarIconItems{
-    margin-right: 15px;
-    cursor: pointer;
-    position: relative;
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
 }
 
-.topbarIconBadge{
-    width: 15px;
-    height: 15px;
-    background-color: black;
-    border-radius: 50%;
-    color: white;
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
 }
 
-.topbarImg{
-    width: 34px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: 0.5rem;
-
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
 }
